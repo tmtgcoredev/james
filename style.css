@@ -5,14 +5,52 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
+#banners{
+    padding: 5%;
+}
 .banner1{
     position: absolute;
+    top: 15%;
+    width: 40%;
+    font-size: 30px;
+}
+.banner1 h3{
+    margin: 30px auto 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;     
+    font-size: 22px;
 }
 .banner2{
     position: absolute;
-    bottom: 8%;
+    bottom: 15%;
+    width: 40%;
+}
+.banner2 ul{
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 25px 25px;
+    text-align: center;
+    background-color: #4fbde8;
+    color: #ffffff;
+    /*border: .5px solid;*/
+}
+.banner2 ul li{
+    padding: 10px;
 }
 .banner3{
     position: absolute;
-    right: 8%;
+    right: 5%;
+    bottom: 15%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;   
+    text-align: center;
+    font-size: 25px;
+}
+.banner3 img{
+    width: 600px;
 }
