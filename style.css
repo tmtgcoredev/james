@@ -7,12 +7,12 @@
 }
 .banner1{
     position: absolute;
-    bottom: 8%;
-    /*color: #fff;*/
 }
 .banner2{
-    
+    position: absolute;
+    bottom: 8%;
 }
 .banner3{
-    
+    position: absolute;
+    right: 8%;
 }
