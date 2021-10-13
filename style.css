@@ -140,6 +140,10 @@
 }
 #partner_benefits img{
     border: 1px solid;
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px;
+    height: 30%;
 }
 .pb_content{
     border: 1px green solid;
