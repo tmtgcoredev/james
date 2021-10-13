@@ -5,52 +5,55 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
-#banners{
+#course_development_and_delivery{
     padding: 5%;
 }
-.banner1{
+.cdad_1{
     position: absolute;
     top: 15%;
     width: 40%;
     font-size: 30px;
 }
-.banner1 h3{
+.cdad_1 h3{
     margin: 30px auto 0;
     align-items: center;
     display: flex;
     flex-wrap: wrap;     
     font-size: 22px;
 }
-.banner2{
+.cdad_2{
     position: absolute;
     bottom: 15%;
     width: 40%;
 }
-.banner2 ul{
+.cdad_2 ul{
     list-style: none;
     font-size: 20px;
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0;
+    margin-top: 20px;
     padding: 25px 25px;
     text-align: center;
     background-color: #4fbde8;
     color: #ffffff;
     /*border: .5px solid;*/
 }
-.banner2 ul li{
+.cdad_2 ul li{
     padding: 10px;
 }
-.banner3{
+.cdad_3{
+    /*border: .5px solid;*/
     position: absolute;
     right: 5%;
+    top: 15%;
     bottom: 15%;
     writing-mode: vertical-lr;
     text-orientation: upright;   
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
+    
 }
-.banner3 img{
+.cdad_3 img{
     width: 600px;
 }
