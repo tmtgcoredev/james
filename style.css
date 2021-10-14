@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
 }
+body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
 #course_development_and_delivery{
     width: 100%;
     height: 100vh;
@@ -12,6 +16,7 @@
     display: flex;
     justify-content: center;
     position:relative;
+    scroll-snap-align: start;
 }
 #on_left{
     width: 100%;
@@ -80,6 +85,7 @@
     position:relative;
     border: 2px solid;
     color: white;
+    scroll-snap-align: start;
 }
 #services_img{
     width: 100%;
@@ -111,7 +117,6 @@
     max-width: 80px;
     margin: 10px;
     height: fit-content;
-
 }
 .services_section ul{
     width: 100%;
@@ -132,31 +137,67 @@
     font-size: 16px;
 }
 #partner_benefits{
-    border: 1px solid;
     width: 100%;
     height: 100vh;
     padding: 5%;
     position:relative;
-}
-#partner_benefits img{
-    border: 1px solid;
-    width: 100%;
-    max-width: 1000px;
-    margin: 10px;
-    height: 30%;
+    scroll-snap-align: start;
 }
 .pb_content{
-    border: 1px green solid;
+    text-align: center;
+    margin: 40px 0;
 }
 .pb_content h1{
-    border: 1px blue solid;
+    font-size: 45px;
+    margin: 40px;
 }
 .pb_statement{
-    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+}
+.pb_statement div{
+    text-align: justify;
+    max-width: 750px;
+    width: 100%;
+    font-size: 28px;
+    padding: 0 2%;
+    margin: 0 20px;
+    position: relative;
 }
 .pb_1{
-    border: 1px purple solid;
+    position: absolute;
+    left: 0;
 }
 .pb_2{
-    border: 1px salmon solid;
+    position: absolute;
+    right: 0;
+}
+#image_text{
+    position: relative;
+}
+#image_text img{
+    width: 100%;
+    max-width: 1600px;
+    margin: 10px;
+    height: fit-content;
+
+    /*horizontally align in block display*/
+    display: block;
+    margin: 0 auto;
+    /*position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);*/
+}
+#image_text h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    color: white;
+    font-size: 50px;
+    letter-spacing: 20px;
 }
