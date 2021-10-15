@@ -219,3 +219,22 @@ body{
 /*PAGE 11----------------------------------*/
 /*PAGE 11----------------------------------*/
 /*PAGE 11----------------------------------*/
+#last_page{
+    width: 100%;
+    height: 100vh;
+    background-image: /*linear-gradient(rgba(0,0,0,0.25),#009688),*/
+    url(https://raw.githubusercontent.com/tmtgcoredev/james/main/resources/last_page%20background.png);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    padding: 3%;
+    display: flex;
+    /*align horizontally in flex*/
+    justify-content: center;
+    /*align vertically in flex*/
+    align-items: center;
+}
+#coursebank_logo{
+    width: 800px;
+    
+}
